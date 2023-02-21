@@ -1,87 +1,88 @@
 /*fungsi clearing*/
-*,  html, body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
-.parallax{
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    width: 100%;
-    height: 100vh;
+.parallax {
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
 }
 
-.awal{
-    background-image: url('1.jpg');
+.awal {
+  background-image: url("1.jpg");
 }
 
-.content{
-    background-image: url('2.jpg');
+.content {
+  background-image: url("2.jpg");
 }
 
-.akhir{
-    background-image: url('3.jpg');
+.akhir {
+  background-image: url("3.jpg");
 }
 
-.isiawal{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+.isiawal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-.tulisan{
-    position: absolute;
-    font-size: 4em;
-    color: white;
-    letter-spacing: 2px;
-    text-align: center;
-    text-shadow: 3px 3px 10px gray;
-    font-weight: bold;
+.tulisan {
+  position: absolute;
+  font-size: 4em;
+  color: white;
+  letter-spacing: 2px;
+  text-align: center;
+  text-shadow: 3px 3px 10px gray;
+  font-weight: bold;
 }
 
-#tombol{
-    position: absolute;
-    font-size: 1em;
-    color: black;
-    background-color: white;
-    padding: 10px 50px;
-    border-radius: 20px;
-    text-decoration: none;
-    transform: translateY(100px);
+#tombol {
+  position: absolute;
+  font-size: 1em;
+  color: black;
+  background-color: white;
+  padding: 10px 50px;
+  border-radius: 20px;
+  text-decoration: none;
+  transform: translateY(100px);
 }
 
-#tombol2{
-    position: absolute;
-    font-size: 1em;
-    color: black;
-    background-color: white;
-    padding: 10px 50px;
-    border-radius: 20px;
-    text-decoration: none;
-    transform: translateY(150px);
+#tombol2 {
+  position: absolute;
+  font-size: 1em;
+  color: black;
+  background-color: white;
+  padding: 10px 50px;
+  border-radius: 20px;
+  text-decoration: none;
+  transform: translateY(150px);
 }
 
-.isitengah{
-    position: relative;
-    padding:5em;
+.isitengah {
+  position: relative;
+  padding: 5em;
 }
 
-
-.isitengah h2{
-    font-size: 4em;
-    text-align: center;
+.isitengah h2 {
+  font-size: 4em;
+  text-align: center;
 }
 
-.isitengah p{
-    font-size: 2em;
-    text-align: justify;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.isitengah p {
+  font-size: 2em;
+  text-align: justify;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-.isitengah p2{
-    font-style: italic;
+.isitengah p2 {
+  font-style: italic;
 }
