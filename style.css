@@ -64,7 +64,8 @@ body {
   padding: 10px 50px;
   border-radius: 20px;
   text-decoration: none;
-  transform: translateY(150px);
+  transform: translateY(1500px);
+  transform: translateX(670px);
 }
 
 .isitengah {
@@ -85,4 +86,10 @@ body {
 
 .isitengah p2 {
   font-style: italic;
+}
+
+.isiakhir h3 {
+  font-size: 4em;
+  text-align: center;
+  color:white
 }
